@@ -37,7 +37,15 @@ let str = `╭「➻❥Ванилька➻❥」
 │➯ *здрасти*
 │➯ *че делать*
 │➯ *секс*
+<<<<<<< HEAD
 │➯⫷᭄©Ванилька✍ лелька
+=======
+│➯ *чмо*
+│➯ *дурак*
+│➯ *казел*
+│➯ *споки*
+│➯⫷᭄©Ванилька✍
+>>>>>>> b5231829e57838cee3510ed53da5caa6e0cf5714
 ︎╰───────────────╯`.trim()
 if (m.isGroup) {
 await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
